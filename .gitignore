@@ -1,0 +1,16 @@
+# 本地环境变量与密钥（切勿提交）
+.env
+.env.*
+**/.env
+**/.env.*
+
+# IDE 配置
+.idea/
+*.iml
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
