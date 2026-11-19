@@ -79,9 +79,11 @@ cp .env.example .env
 
 ## 运行约定
 
+示例里的文件名以各专题 README 的「code/ 目录约定」表为准。
+
 ```bash
 # Python 单文件
-python 03-tool-calling/code/01-single-tool.py
+python 03-tool-calling/code/02-single-tool.py
 
 # Go 单文件
 go run 02-go/code/01-hello.go
