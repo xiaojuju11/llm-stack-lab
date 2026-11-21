@@ -152,3 +152,10 @@ insert into departments values(null,"human",3);
 示例三：
 向 departments 表中添加一条数据，部门名称为 teaching ，工作地点 ID 为 4 。使用 0 占 位。
 insert into departments values(0,"teaching",4);
+# 更新数据(UPDATE)
+`UPDATE 表名 SET  列名=值，列名=值 WHERE 条件`
+注意：
+更新语句中一定要给定更新条件，否则表中的所有数据都会被更新。
+示例：
+更新 emp3 表中的 id 为 1 的数据，添加 address 为 BeiJing。
+update emp3 set address = "BeiJing" where emp_id = 1;
