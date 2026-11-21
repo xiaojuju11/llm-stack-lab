@@ -1,38 +1,16 @@
-# 密钥与环境变量（真实值绝不入库）
+# 本地环境变量与密钥（切勿提交）
 .env
 .env.*
-!.env.example
+**/.env
+**/.env.*
 
-# Python
+# IDE 配置
+.idea/
+*.iml
+
+# Python 运行产物
 __pycache__/
 *.py[cod]
-*.egg-info/
+.ipynb_checkpoints/
 .venv/
 venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
-
-# 向量库与本地数据
-chroma/
-chroma_db/
-*.sqlite
-*.db
-data/raw/
-data/processed/
-out/
-
-# Go
-*.exe
-*.exe~
-*.test
-*.out
-go.work
-go.work.sum
-
-# 编辑器与系统
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
